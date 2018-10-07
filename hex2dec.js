@@ -77,8 +77,10 @@ function convertBase(str, fromBase, toBase) {
   return out;
 }
 
-export function hexToDec(hexStr) {
+function hexToDec(hexStr) {
   if (hexStr.substring(0, 2) === "0x") hexStr = hexStr.substring(2);
   hexStr = hexStr.toLowerCase();
   return convertBase(hexStr, 16, 10);
 }
+
+module.exports = hexToDec;
