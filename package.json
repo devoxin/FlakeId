@@ -1,0 +1,20 @@
+{
+  "name": "flakeid",
+  "version": "1.0.0",
+  "description": "Twitter-style snowflake generator. Based on https://github.com/s-yadav/FlakeId",
+  "main": "flakeid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devoxin/FlakeId.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devoxin/FlakeId/issues"
+  },
+  "homepage": "https://github.com/Devoxin/FlakeId#readme"
+}
