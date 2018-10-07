@@ -83,4 +83,4 @@ function hexToDec(hexStr) {
   return convertBase(hexStr, 16, 10);
 }
 
-module.exports = hexToDec;
+exports.hexToDec = hexToDec;
